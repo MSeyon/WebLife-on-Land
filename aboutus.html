@@ -3,7 +3,7 @@
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
-    body {
+body {
   font-family: Arial, Helvetica, sans-serif;
   margin: 0;
 }
@@ -27,11 +27,10 @@ html {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   margin: 8px;
 }
-
 .about-section {
   padding: 50px;
   text-align: center;
-  background-color: #1b6673;
+  background-color:#1b6673;
   color: white;
   font-family:serif;
 }
@@ -45,6 +44,7 @@ html {
   clear: both;
   display: table;
 }
+
 .title {
   color: midnightblue;
 }
@@ -67,12 +67,11 @@ html {
 
 @media screen and (max-width: 650px) {
   .column {
-    width:100;
+    width:100%;
     display:block;
-  
   }
 }
-.para{
+  .para{
   color:#a8ee90;
   font-size:20px;
   font-family:cursive;
@@ -83,10 +82,30 @@ html {
   font-size:40px;
   font-family:time new roman;
   }
-
-
+  #list{
+      font-size:18px;
+      background-color:#008B8B;
+      min-width:100%;
+			display:block;
+      display:flex;
+			min-height:30%;
+  }
+  li a:hover {
+  background-color: #555;
+  color: white;
+  }
+  li a{
+		text-decoration:none;
+		color:white;
+		overflow:auto;
+	}
+	ul li:before {
+  content: '\2714\0020';
+  color:white;
+}
 </style>
 </head>
+<body>
 
 <div class="about-section">
 
@@ -100,6 +119,7 @@ html {
   <div style="font-family:serif;font-size:20px;">
   <h4>We should protect our environment.you can contact us to further details about environment action.Also you can express your suggestion and comment.  </h4>
 </div>
+
 
 </div>
 
@@ -119,12 +139,11 @@ html {
 
   <div class="column">
     <div class="card">
-      <img src="cd.jpg" alt="Mike" style="width:100%">
+      <img src="ritheeshkumar.jpeg" alt="ritheeshkumar" style="width:100%;">
       <div class="container">
-        <h2>Mike Ross</h2>
-        <p class="title">Art Director</p>
-        <p>Some text that describes me lorem ipsum ipsum lorem.</p>
-        <p>mike@example.com</p>
+        <h2>Ritheeshkumar</h2>
+        <p class="title">Team member</p>
+        <p>ritheeshkumar16@gmail.com</p>
         <p><button class="button">Contact</button></p>
       </div>
     </div>
@@ -132,41 +151,46 @@ html {
   
   <div class="column">
     <div class="card">
-      <img src="5.jpg" alt="John" style="width:100%">
+      <img src="sansala.jpeg" alt="sansala" style="width:100%;">
       <div class="container">
-        <h2>John Doe</h2>
-        <p class="title">Designer</p>
-        <p>Some text that describes me lorem ipsum ipsum lorem.</p>
-        <p>john@example.com</p>
+        <h2>Sansala Senanayake</h2>
+        <p class="title">Team member</p>
+        <p>malindi990907@gmail.com</p>
         <p><button class="button">Contact</button></p>
       </div>
     </div>
   </div>
   <div class="column">
     <div class="card">
-      <img src="ab.jpg" alt="John" style="width:100%">
+      <img src="yisira.jpeg" alt="yisira" style="width:100%;">
       <div class="container">
-        <h2>John Doe</h2>
-        <p class="title">Designer</p>
-        <p>Some text that describes me lorem ipsum ipsum lorem.</p>
-        <p>john@example.com</p>
+        <h2>Yisira Sankalpani</h2>
+        <p class="title">Team member</p>
+        <p>sankalpani.jayasuriya@gmail.com</p>
         <p><button class="button">Contact</button></p>
       </div>
     </div>
   </div>
-
-  <div class="column">
+ <div class="column">
     <div class="card">
-      <img src="gh.jpg" alt="John" style="width:100%">
+      <img src="nilupul.jpeg" alt="nilupul" style="width:100%;">
       <div class="container">
-        <h2>John Doe</h2>
-        <p class="title">Designer</p>
-        <p>Some text that describes me lorem ipsum ipsum lorem.</p>
-        <p>john@example.com</p>
+        <h2>Nilupul Dasun</h2>
+        <p class="title">Team member</p>
+        <p>nilupuldasun19@gmail.com</p>
         <p><button class="button">Contact</button></p>
       </div>
     </div>
   </div> 
 </div>
+<div id="list">
+  <ul style="list-style-type:none">
+                              <li class="fas fa-check"><a href="file:///D:/1st%20year%202nd%20Semester/Web%20Development/Assignment/Image.html" target="blank">Home</a></li><br>
+                              <li class="fas fa-check"><a href="file:///D:/1st%20year%202nd%20Semester/Web%20Development/Assignment/Nilupul.html" target="blank">About us</a></li><br>
+                              <li class="fas fa-check"><a href="file:///D:/1st%20year%202nd%20Semester/Web%20Development/Assignment/webass16.html" target="blank">Targets</a></li><br>
+                              <li class="fas fa-check"><a href="#">Solution</a></li><br>
+                          </ul>
+</div>
+
 </body>
 </html>
