@@ -26,24 +26,24 @@
 		 background-color:gray;
   font-size: 10vw; 
   font-weight: bold;
-  margin: 0 auto;
+  margin-left:10px;
+  margin-right:10px;
   margin-top:-20%;
   padding: 10px;
   min-width: 90%;
   text-align: center;
   position: absolute;
-  min-top:-20%;
   left: 50%;
   transform: translate(-50%, -50%);
   mix-blend-mode: screen;
 		}
 	#content{
-			position:absolute;
+			position:relative;
 			min-width:100%;
 			min-height:30%;
 			color:navy;
 			z-index:-1;
-			margin-top:40%;
+			margin-top:1%;
 			background-color:#ffffff;
 			border:2px solid white;
 			opacity:0.5;
@@ -90,19 +90,18 @@
 			}
 	body{
 			background-color:forestgreen;
+			overflow:scroll;
 		}
 		#list{
 			font-size:18px;
-			margin-top:37%;
+			margin-top:27%;
 			liststyletype:none;
 			background-color:#008B8B;
 			min-width:100%;
 			display:block;
 			font-family:Calibri;
 			margin-left:-10%;
-			min-top:30%;
-			position:absolute;
-			min-bottom:-70%;
+			position:static;
 			display:flex;
 			min-height:30%;
 			}
@@ -113,7 +112,6 @@
   li a{
 		text-decoration:none;
 		color:white;
-		overflow:auto;
 	}
 	ul li:before {
   content: '\2714\0020';
@@ -122,16 +120,16 @@
 </style>
 </head>
 <body>
+	<div class="image">
+		<img src="cheetah.gif" alt="15"/>
+	<div>
+		<h1 id="text">15<br> Life on Land</h1>
+</div>
 <div id="content">
 	<h2>Definition</h2>	
 	<p id="p1">Protect, restore and promote sustainable use of terrestrial ecosystems, sustainably manage forests, combat desertification, and halt and reverse land degradation and halt biodiversity loss.<br>Human life depends on the earth as much as the ocean for our sustenance and livelihoods. Plant life provides 80 percent of the human diet, and we rely on agriculture as an important economic resources. Forests cover 30 percent of the Earth’s surface, provide vital habitats for millions of species, and important sources for clean air and water, as well as being crucial for combating climate change.</p>
 	<p id="p2">The SDGs aim to conserve and restore the use of terrestrial ecosystems such as forests, wetlands, drylands and mountains by 2020. Halting deforestation is also vital to mitigating the impact of climate change. Urgent action must be taken to reduce the loss of natural habitats and biodiversity which are part of our common heritage.</p>
 	<p id="p3">While 15 percent of land is protected, biodiversity is still at risk. Nearly 7,000 species of animals and plants have been illegally traded. Wildlife trafficking not only erodes biodiversity, but creates insecurity, fuels conflict, and feeds corruption.</p>
-</div>
-<div class="image">
-		<img src="cheetah.gif" alt="15"/>
-	<div>
-		<h1 id="text">15<br> Life on Land</h1>
 </div>
 <div id="list">
 		<ul style="list-style-type:none">
